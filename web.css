@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+img{
+    margin-left: 35rem;
+    width: 30rem;
+}
+body{
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right:10rem ;
+}
+header{
+    margin-top:4rem;
+    height: 20rem;
+}
+.navlist{
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+}
+li{
+    list-style: none;
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    margin: 0 auto;
+}
+.grid{
+    display: grid; 
+    gap: 9.6rem; 
+}
+.grid{
+    grid-template-columns: repeat(2,1fr);
+    color: white;
+}
+.bank{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.bank{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rem;
+}
+.first h1{
+    margin-top: 15rem;
+    font-size: 20rem;
+    font-weight: 700;
+    
+}
+.para p{
+    margin-top: 15rem;
+    font-size: 8rem;
+}
+
+.btn{
+    margin-top: 10rem;
+    width: 100rem;
+    height: 20rem;
+    text-align: center;
+    display: flex;
+    background: pink;
+    justify-content: center;
+}
+.btn span{
+    margin: auto;
+    font-size: 10rem;
+}
+
+.pre{
+    margin-top: 10rem;
+    font-size: 10rem;
+}
+
+.bt{
+    border: 2px solid green;
+    padding: 5rem;
+    background-color: green;
+    border-radius: 8px;
+    transition: all 0.5s ease-in;
+}
+
+
+.image img{
+    margin-top:15rem;
+    width: 320rem;
+    height: 250rem;
+}
+.bt:hover{
+   background: pink;
+   border-radius: 15rem;
+}
