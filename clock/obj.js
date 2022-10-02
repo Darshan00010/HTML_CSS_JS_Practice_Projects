@@ -15,3 +15,5 @@ let sec=obj1.obj2();
 console.log(sec);
 // console.log(obj1.details());
 // create object using functio;
+let {fullname,details}=obj1;
+console.log();

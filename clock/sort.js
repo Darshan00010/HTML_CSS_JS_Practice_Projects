@@ -11,6 +11,3 @@ const user={
     id:11,
     id:55
 }
-let asc=user.sort((a,b)=>{
-  return {a-b}
- })
